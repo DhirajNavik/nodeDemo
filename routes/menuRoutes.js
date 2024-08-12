@@ -1,7 +1,7 @@
 const express = require("express");
 const routes = express.Router();
 
-const menuItems = require("./../models/Menu");
+const menuItems = require("./../models/menu");
 
 routes.delete("/menuItems/:id", async (req, res) => {
   try {
